@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/milabowl/static/css/main.69eda509.chunk.css",
-    "main.js": "/milabowl/static/js/main.e2380c20.chunk.js",
-    "main.js.map": "/milabowl/static/js/main.e2380c20.chunk.js.map",
+    "main.js": "/milabowl/static/js/main.b0bfe897.chunk.js",
+    "main.js.map": "/milabowl/static/js/main.b0bfe897.chunk.js.map",
     "runtime-main.js": "/milabowl/static/js/runtime-main.5ebe3426.js",
     "runtime-main.js.map": "/milabowl/static/js/runtime-main.5ebe3426.js.map",
-    "static/js/2.fa7874a5.chunk.js": "/milabowl/static/js/2.fa7874a5.chunk.js",
-    "static/js/2.fa7874a5.chunk.js.map": "/milabowl/static/js/2.fa7874a5.chunk.js.map",
+    "static/js/2.c7d59a86.chunk.js": "/milabowl/static/js/2.c7d59a86.chunk.js",
+    "static/js/2.c7d59a86.chunk.js.map": "/milabowl/static/js/2.c7d59a86.chunk.js.map",
     "index.html": "/milabowl/index.html",
-    "precache-manifest.6119183050815f3562492cfbfb11173d.js": "/milabowl/precache-manifest.6119183050815f3562492cfbfb11173d.js",
+    "precache-manifest.41c3a4cd1090ef2f5cac27d17e2b1702.js": "/milabowl/precache-manifest.41c3a4cd1090ef2f5cac27d17e2b1702.js",
     "service-worker.js": "/milabowl/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/milabowl/static/css/main.69eda509.chunk.css.map",
-    "static/js/2.fa7874a5.chunk.js.LICENSE.txt": "/milabowl/static/js/2.fa7874a5.chunk.js.LICENSE.txt"
+    "static/js/2.c7d59a86.chunk.js.LICENSE.txt": "/milabowl/static/js/2.c7d59a86.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ebe3426.js",
-    "static/js/2.fa7874a5.chunk.js",
+    "static/js/2.c7d59a86.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.e2380c20.chunk.js"
+    "static/js/main.b0bfe897.chunk.js"
   ]
 }
