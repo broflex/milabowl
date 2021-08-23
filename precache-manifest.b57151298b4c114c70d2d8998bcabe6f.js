@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "248dac9a84e4ba67486e91cc301753b5",
+    "revision": "0d8117497686e2e951f85a37e0f48323",
     "url": "/milabowl/index.html"
   },
   {
-    "revision": "48054c590ee40873c5d7",
+    "revision": "d35c96aad9b624ad90d6",
     "url": "/milabowl/static/css/main.69eda509.chunk.css"
   },
   {
-    "revision": "b87a74e62be47985e325",
-    "url": "/milabowl/static/js/2.6f04474c.chunk.js"
+    "revision": "4e6acaefab34f26cb83c",
+    "url": "/milabowl/static/js/2.e6e4e340.chunk.js"
   },
   {
     "revision": "b6a4d15389179fcf571735919b33e5b9",
-    "url": "/milabowl/static/js/2.6f04474c.chunk.js.LICENSE.txt"
+    "url": "/milabowl/static/js/2.e6e4e340.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "48054c590ee40873c5d7",
-    "url": "/milabowl/static/js/main.da48dbbe.chunk.js"
+    "revision": "d35c96aad9b624ad90d6",
+    "url": "/milabowl/static/js/main.124a45ed.chunk.js"
   },
   {
     "revision": "ea87fb01612fc1479137",
