@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/milabowl/precache-manifest.c01191c406e117e6dd072f3e21890d4e.js"
+  "/milabowl/precache-manifest.2fcc23e5784b54142da65939e67d3162.js"
 );
 
 self.addEventListener('message', (event) => {
