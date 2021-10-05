@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/milabowl/static/css/main.69eda509.chunk.css",
-    "main.js": "/milabowl/static/js/main.b41c7643.chunk.js",
-    "main.js.map": "/milabowl/static/js/main.b41c7643.chunk.js.map",
+    "main.js": "/milabowl/static/js/main.2113bfa3.chunk.js",
+    "main.js.map": "/milabowl/static/js/main.2113bfa3.chunk.js.map",
     "runtime-main.js": "/milabowl/static/js/runtime-main.5ebe3426.js",
     "runtime-main.js.map": "/milabowl/static/js/runtime-main.5ebe3426.js.map",
     "static/js/2.e6e4e340.chunk.js": "/milabowl/static/js/2.e6e4e340.chunk.js",
     "static/js/2.e6e4e340.chunk.js.map": "/milabowl/static/js/2.e6e4e340.chunk.js.map",
     "index.html": "/milabowl/index.html",
-    "precache-manifest.3217f693492c46e31e829b6b1a933d5a.js": "/milabowl/precache-manifest.3217f693492c46e31e829b6b1a933d5a.js",
+    "precache-manifest.7da92fc2fd5b5856add9d323e923b32e.js": "/milabowl/precache-manifest.7da92fc2fd5b5856add9d323e923b32e.js",
     "service-worker.js": "/milabowl/service-worker.js",
     "static/css/main.69eda509.chunk.css.map": "/milabowl/static/css/main.69eda509.chunk.css.map",
     "static/js/2.e6e4e340.chunk.js.LICENSE.txt": "/milabowl/static/js/2.e6e4e340.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.5ebe3426.js",
     "static/js/2.e6e4e340.chunk.js",
     "static/css/main.69eda509.chunk.css",
-    "static/js/main.b41c7643.chunk.js"
+    "static/js/main.2113bfa3.chunk.js"
   ]
 }
