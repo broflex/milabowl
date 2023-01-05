@@ -3,12 +3,14 @@
 		"personNominated": "Simen Aakhus",
 		"gw": 17,
 		"date": "05.01.2022",
-		"reason": "The reason for nomination"
+		"reason": "The reason for nomination",
+		"category": "DERP"
 	},
 	{
 		"personNominated": "Sneivind",
 		"gw": 15,
 		"date": "02.01.2022",
-		"reason": "Some stupid reason"
+		"reason": "Some stupid reason",
+		"category": "FAIL"
 	}
 ]
