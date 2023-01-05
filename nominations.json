@@ -1,8 +1,14 @@
 [
 	{
-		"personNominated": "Test",
+		"personNominated": "Simen Aakhus",
 		"gw": 17,
 		"date": "05.01.2022",
 		"reason": "The reason for nomination"
+	},
+	{
+		"personNominated": "Sneivind",
+		"gw": 15,
+		"date": "02.01.2022",
+		"reason": "Some stupid reason"
 	}
 ]
