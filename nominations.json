@@ -11,7 +11,7 @@
 		"gw": 19,
 		"date": "04.01.2023",
 		"reason": "Free hit reverseres aka Ødegaard -> Gross: Ødegaard blanker med 2 pts mens Gross scorer 8pts.",
-		"category": "DERP"
+		"category": "LUCK"
 	},
 	{
 		"personNominated": "Markus",
@@ -31,7 +31,7 @@
 		"personNominated": "Mikkel",
 		"gw": 17,
 		"date": "01.01.2023",
-		"reason": "Kjører strategisk wildcard for å score høyt i Milabowl, men har misforstått reglene: Cap Def gjelder KUN for den som ender opp som kaptein",
+		"reason": "Kjører strategisk wildcard for å score høyt i Milabowl, men har misforstått reglene: Cap Def gjelder KUN for den som ender opp som kaptein. Må passe seg for MilaLoser fremover!",
 		"category": "DERP"
 	},
 	{
@@ -66,7 +66,7 @@
 		"personNominated": "Malte",
 		"gw": 5,
 		"date": "31.08.2022",
-		"reason": "Capper KDB i kjent stil, VC på Haaland. Haaland starter kampen, mens KDB er benket. Haaland starter friskt og ligger an til 17 pots. På dette tidspunktet truer Malte fpl gudene med å slutte dersom Pep bytter inn KDB. Trusler fungerer aldri og i det 69 minutt (trøstepoeng) bytter Pep inn KDB som sikrer seg 1 poeng, som gir 16 tapte fpl poeng for Malte",
+		"reason": "Capper KDB i kjent stil, VC på Haaland. Haaland starter kampen, mens KDB er benket. Haaland starter friskt og ligger an til 17 pts. På dette tidspunktet truer Malte fpl gudene med å slutte dersom Pep bytter inn KDB. Trusler fungerer aldri og i det 69 minutt (trøstepoeng) bytter Pep inn KDB som sikrer seg 1 poeng, som gir 16 tapte fpl poeng for Malte",
 		"category": "DERP"
 	},
 	{
@@ -95,6 +95,6 @@
 		"gw": 3,
 		"date": "23.08.2022",
 		"reason": "Byttet ut rashford 10 poeng og inn med Cancelo 0 poeng",
-		"category": "Fail"
+		"category": "FAIL"
 	}
 ]
