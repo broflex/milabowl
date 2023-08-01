@@ -1,4 +1,6 @@
-﻿namespace Milabowl.Domain.Import;
+﻿using Milabowl.Domain.Import.FantasyDTOs;
+
+namespace Milabowl.Domain.Import;
 
 public interface IDataImportService
 {
@@ -50,10 +52,13 @@ public class DataImportService: IDataImportService
         await this._dataImportBusiness.ImportUserLeagues(users, league, userLeaguesFromDb);
         await _repository.SaveChangesAsync();
 
+        var entryRootForUser = new Dictionary<Guid, EntryRootDTO>();
+        
         foreach (var user in users)
         {
             var entryRoot = await this._dataImportProvider.GetEntryRoot(user.FantasyEntryId);
             await this._dataImportBusiness.ImportUserHistories(entryRoot, user);
+            entryRootForUser.Add(user.UserId, entryRoot);
         }
         await _repository.SaveChangesAsync();
 
@@ -78,7 +83,7 @@ public class DataImportService: IDataImportService
                     continue;
                 }
 
-                var lineup = await this._dataImportBusiness.ImportLineup(picksRoot, finishedEvent, user, lineupsFromDb);
+                var lineup = await this._dataImportBusiness.ImportLineup(picksRoot, finishedEvent, user, lineupsFromDb, entryRootForUser[user.UserId]);
                 await this._dataImportBusiness.ImportPlayerEventLineup(picksRoot, finishedEvent, lineup, playerEvents, playerEventLineupsFromDb);
             }
 

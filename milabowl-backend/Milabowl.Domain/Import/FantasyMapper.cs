@@ -14,10 +14,10 @@ public interface IFantasyMapper
     User GetUserFromResultDTO(ResultDTO r);
     UserLeague GetUserLeagueFromUserAndLeague(User u, League league);
     PlayerEvent GetPlayerEvent(ElementDTO e, Event evt, IList<Player> players, IList<ElementHistoryRootDTO> playerHistory, IList<FixtureDTO> fixtures);
-    Lineup GetLineup(PicksRootDTO picksRootDto, Event evt, User user);
+    Lineup GetLineup(PicksRootDTO picksRootDto, Event evt, User user, EntryRootDTO entryRootDto);
     PlayerEventLineup GetPlayerEventLineup(PickDTO p, Lineup lineup, IList<PlayerEvent> playerEvents, Event evt);
     IList<UserHeadToHeadEvent> GetUserHeadToHeadEvents(HeadToHeadResultDTO headToHeadResult, Event evt, IList<User> users);
-    UserHistory GetUserHistory(EntryResultDTO entryResultDto, User user);
+    UserHistory GetUserHistory(EntryPastResultDTO entryPastResultDto, User user);
 }
 
 public class FantasyMapper: IFantasyMapper
@@ -160,14 +160,14 @@ public class FantasyMapper: IFantasyMapper
         return new UserLeague {League = league, User = u};
     }
     
-    public UserHistory GetUserHistory(EntryResultDTO entryResultDto, User user)
+    public UserHistory GetUserHistory(EntryPastResultDTO entryPastResultDto, User user)
     {
         return new UserHistory
         {
             UserHistoryId = Guid.NewGuid(),
-            SeasonName = entryResultDto.SeasonName,
-            TotalPoints = entryResultDto.TotalPoints,
-            Rank = entryResultDto.Rank,
+            SeasonName = entryPastResultDto.SeasonName,
+            TotalPoints = entryPastResultDto.TotalPoints,
+            Rank = entryPastResultDto.Rank,
             User = user
         };
     }
@@ -264,14 +264,26 @@ public class FantasyMapper: IFantasyMapper
         return headToHeadEvents;
     }
 
-    public Lineup GetLineup(PicksRootDTO picksRootDto, Event evt, User user)
+    public Lineup GetLineup(PicksRootDTO picksRootDto, Event evt, User user, EntryRootDTO entryRootDto)
     {
+        var currentEventEntry = entryRootDto.Current.First(c => evt.FantasyEventId == c.Event);
+        
         return new Lineup
         {
             LineupId = Guid.NewGuid(),
             Event = evt,
             User = user,
-            ActiveChip = picksRootDto.active_chip
+            ActiveChip = picksRootDto.active_chip,
+            Bank = currentEventEntry.Bank,
+            EventTransferCost = currentEventEntry.EventTransferCosts,
+            EventTransfers = currentEventEntry.EventTransfers,
+            OverallRank = currentEventEntry.OverallRank,
+            Points = currentEventEntry.Points,
+            TotalPoints = currentEventEntry.TotalPoints,
+            Rank = currentEventEntry.Rank,
+            RankSort = currentEventEntry.RankSort,
+            Value = currentEventEntry.Value,
+            PointsOnBench = currentEventEntry.PointsOnBench
         };
     }
 
